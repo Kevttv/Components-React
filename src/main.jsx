@@ -9,7 +9,7 @@ class Parent extends Component{
     this.state = {
       name: 'Arthur'
     }
-    this.clickEvent = this.changeName.bind(this);
+    this.changeName = this.changeName.bind(this);
   }
 
   changeName(newName){
