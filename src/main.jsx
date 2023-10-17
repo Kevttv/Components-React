@@ -17,7 +17,12 @@ class Parent extends Component{
   }
 
   render(){
-    return(<Child name = {this.state.name} changeNombre={this.changeName}/>) 
+    return(
+      <div>
+      <Child name = {this.state.name} changeNombre={this.changeName}/>
+    </div>
+    )
+    
   }
 }
 
